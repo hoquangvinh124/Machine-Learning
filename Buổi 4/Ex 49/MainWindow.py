@@ -85,7 +85,7 @@ class Ui_MainWindow(object):
         self.labelAvatar.setGeometry(QtCore.QRect(310, 0, 171, 151))
         self.labelAvatar.setStyleSheet("")
         self.labelAvatar.setText("")
-        self.labelAvatar.setPixmap(QtGui.QPixmap("images/ic_no_avatar.png"))
+        self.labelAvatar.setPixmap(QtGui.QPixmap("../../../StudentManagement/StudentManagement/images/ic_no_avatar.png"))
         self.labelAvatar.setScaledContents(True)
         self.labelAvatar.setObjectName("labelAvatar")
         self.pushButtonAvatar = QtWidgets.QPushButton(parent=self.groupBox_2)
